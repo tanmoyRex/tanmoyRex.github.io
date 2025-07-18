@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flappy Bird</title>
+    <title>Flappy Ayaas</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <style>
@@ -35,7 +35,7 @@
 <body class="bg-gray-800 flex flex-col items-center justify-center min-h-screen p-4 text-white">
 
     <div class="game-wrapper text-center">
-        <h1 class="text-4xl mb-2">Flappy Bird</h1>
+        <h1 class="text-4xl mb-2">Flappy Ayaas</h1>
         <p class="mb-4">Score: <span id="scoreDisplay">0</span> | High Score: <span id="highScoreDisplay">0</span></p>
 
         <!-- Canvas for the game -->
@@ -72,16 +72,16 @@
         // --- IMAGE LOADING ---
         // IMPORTANT: Replace these URLs with the "Raw" URLs from your GitHub repository.
         const birdImage = new Image();
-        birdImage.src = 'https://raw.githubusercontent.com/tanmoyRex/FlappyAyaas/main/FCAssets/Bird1.png'; // <-- PASTE YOUR BIRD IMAGE URL HERE
+        birdImage.src = 'https://raw.githubusercontent.com/tanmoyRex/tanmoyRex.github.io/main/FCAssets/Bird1.png'; // <-- PASTE YOUR BIRD IMAGE URL HERE
 
         const topPipeImage = new Image();
-        topPipeImage.src = 'https://raw.githubusercontent.com/tanmoyRex/FlappyAyaas/main/FCAssets/tubeTop.png'; // <-- PASTE YOUR TOP PIPE IMAGE URL HERE
+        topPipeImage.src = 'https://raw.githubusercontent.com/tanmoyRex/tanmoyRex.github.io/main/FCAssets/tubeTop.png'; // <-- PASTE YOUR TOP PIPE IMAGE URL HERE
 
         const bottomPipeImage = new Image();
-        bottomPipeImage.src = 'https://raw.githubusercontent.com/tanmoyRex/FlappyAyaas/main/FCAssets/tubes.png'; // <-- PASTE YOUR BOTTOM PIPE IMAGE URL HERE (often same as top)
+        bottomPipeImage.src = 'https://raw.githubusercontent.com/tanmoyRex/tanmoyRex.github.io/main/FCAssets/tubes.png'; // <-- PASTE YOUR BOTTOM PIPE IMAGE URL HERE (often same as top)
 
         const customBgImage = new Image();
-        customBgImage.src = 'https://raw.githubusercontent.com/tanmoyRex/FlappyAyaas/main/FCAssets/BG1.PNG'; // <-- PASTE YOUR BACKGROUND IMAGE URL HERE
+        customBgImage.src = 'https://raw.githubusercontent.com/tanmoyRex/tanmoyRex.github.io/main/FCAssets/BG1.PNG'; // <-- PASTE YOUR BACKGROUND IMAGE URL HERE
 
         // --- GAME STATE & CONFIG ---
         let gameState = 'start'; // 'start', 'playing', 'over'
@@ -238,7 +238,7 @@
 
             if (gameState === 'start') {
                 messageOverlay.style.display = 'flex';
-                messageTitle.textContent = 'Flappy Bird';
+                messageTitle.textContent = 'Flappy Ayaas';
                 messageText.textContent = 'Click or Press Space to Start';
             } else if (gameState === 'over') {
                 messageOverlay.style.display = 'flex';
